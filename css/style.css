@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+body{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/static.jpg);
+  padding: 0;
+  margin: 0; 
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'Anonymous Pro', monospace;  
+  transform: translate(-50%,-50%);
+  color: #E9E9E9;
+}
+
+.holder {
+  width: 600px;
+  height: 600px;
+  background-color: rgba(39, 39, 39, 0.5);
+}
+img{
+  margin-top: 20%;
+  opacity: 0.8;
+}
+a:visited{
+  color: aliceblue;
+}
+i{
+  position: relative;
+  top: 30px;
+  margin: 8% 20px;
+}
+
+.line-1{
+  position: relative;
+  top: 30px;  
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 200%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+animation: typewriter 0.7s steps(24) 1s 1 normal both,
+           blinkTextCursor 500ms steps(24) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 7em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255, 255, 255, 0.75);}
+to{border-right-color: transparent;}
+}
