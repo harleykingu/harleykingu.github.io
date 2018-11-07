@@ -1,0 +1,16 @@
+{
+  "particles": {
+    "number": {
+      "value": 100
+    },
+    "color": {
+      "value": "#ff0000"
+    },
+    "shape": {
+      "type": "square"
+    },
+    "line_linked": {
+      "color": "#929292"
+    }
+  }
+}

@@ -12,21 +12,28 @@
   <title>Luccoaas</title>
 </head>
 
-<body>
+<body id="particles-js" class="animated zoomIn fast">
 
   <div class="title">
-
-    <div class="holder animated zoomIn faster z-depth-5 center-align">
+    <div class="holder animated zoomIn delay-1s faster z-depth-5 center-align">
       <img src="img/profile.jpg" alt="profile" class="animated zoomIn circle" width="150px" height="150px">
       <h3 class="line-1 anim-typewriter">Lucas Harlan</h3>
+      <p class="animated delay-2s fadeIn">Software Engineer</p>
       <div>
         <a href="https://github.com/harleykingu/"><i class="fa fa-github fa-3x flipInY delay-2s animated"></i></a>
         <a href="https://www.facebook.com/HarleyKingu"><i class="fa fa-facebook-square fa-3x flipInY delay-2s animated"></i></a>
         <a href="https://www.instagram.com/luccoaas/"><i class="fa fa-instagram fa-3x flipInY delay-2s animated"></i></a>
       </div>
     </div>
-
   </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'js/particles.json', function () {
+      console.log('particles json  file loaded');
+    });
+  </script>
 
 
 </body>
